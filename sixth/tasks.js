@@ -4,6 +4,12 @@
 // console.log('2' * 3 + true)//7
 
 
+// const arr = [1, 2, 3, 4];
+// const [a, b, ...c] = arr
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
 // const a = {
 //     name: 'a'
 // }
