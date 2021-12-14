@@ -1,0 +1,9 @@
+data types
+var let const
+declaration expression
+mutability
+closures,
+this,
+prototypes
+
+
