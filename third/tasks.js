@@ -8,16 +8,6 @@
 //
 // console.log(a.getMsg())
 
-//Ромам Догода 'Hello World'
-//Егор Мишин 'Hello World'
-//Вова Никитин 'Hello World'
-//Елена Пелецкая 'Hello World'
-//Олег Злотников 'Hello World'
-//Олег Корсаков 'Hello World'
-//Дима Карпов 'Hello World'
-//Андрей Маконда 'Hello World'
-//Денис Татаринов 'Hello World'
-
 
 
 // function User(name) {
@@ -37,15 +27,6 @@
 // console.log(b())
 
 
-//Ромам Догода John undefined undefined
-//Егор Мишин John John John
-//Вова Никитин John John John(dont understand)
-//Елена Пелецкая John ?? John
-//Олег Злотников John John ??
-//Олег Корсаков
-//Дима Карпов
-//Андрей Маконда Jhon 3x
-//Денис Татаринов John John John
 
 
 // const object = {
@@ -58,17 +39,6 @@
 // setTimeout(object.logMessage, 1000);
 
 
-//Ромам Догода undefined
-//Егор Мишин undefined
-//Вова Никитин undefined
-//Елена Пелецкая undefined
-//Олег Злотников undefined
-//Олег Корсаков Hello, World!
-//Дима Карпов undefined
-//Андрей Маконда Hello, World!
-//Денис Татаринов undefined
-
-
 
 // const object = {
 // 	who: 'World',
@@ -76,7 +46,6 @@
 // 		return `Hello, ${this.who}!`;
 // 	},
 // 	farewell: () => {
-// 		console.log(this)
 // 		return `Goodbye, ${this.who}!`;
 // 	}
 // };
@@ -84,16 +53,6 @@
 // console.log(object.greet());
 // console.log(object.farewell());
 
-
-//Ромам Догода Hello World Goodbye World
-//Егор Мишин
-//Вова Никитин
-//Елена Пелецкая Hello World Goodbye undefined
-//Олег Злотников Hello World Goodbye World
-//Олег Корсаков Hello World Goodbye World
-//Дима Карпов Hello World Goodbye World
-//Андрей Маконда Hello World Goodbye World
-//Денис Татаринов Hello World Goodbye World
 
 
 // class User {
@@ -116,16 +75,6 @@
 // console.log(User.prototype.constructor)
 
 
-//Ромам Догода function
-//Егор Мишин
-//Вова Никитин
-//Елена Пелецкая function
-//Олег Злотников function
-//Олег Корсаков
-//Дима Карпов function
-//Андрей Маконда function
-//Денис Татаринов function
-
 
 // const Test = class MyTest {
 //
@@ -138,16 +87,6 @@
 // console.log(MyTest)
 
 
-//Ромам Догода { value: 'b' }
-//Егор Мишин { value: 'b' }
-//Вова Никитин { value: 'b' }
-//Елена Пелецкая { value: 'b' }
-//Олег Злотников { value: 'b' }
-//Олег Корсаков { value: 'b' }
-//Дима Карпов undefined
-//Андрей Маконда  { value: 'b' }
-//Денис Татаринов '[object Object]'
-
 // console.log(Object.getPrototypeOf(b) === a)
 // Object.setPrototypeOf(b, {})
 // console.log(Object.getPrototypeOf(b) === {})
@@ -156,15 +95,6 @@
 //console.log(Object.getOwnPropertyDescriptor(b, 'name'))
 
 
-//Ромам Догода ['name', 'age'] ['b', 16],
-//Егор Мишин { value: 'b' }
-//Вова Никитин ['name'] [16]
-//Елена Пелецкая ['name', 'age'] ['b', 16]
-//Олег Злотников ['name', 'age'] ['b', 16]
-//Олег Корсаков ['age'] [16]
-//Дима Карпов ['age'] ['b', 16]
-//Андрей Маконда ['name', 'age'] ['b', 16]
-//Денис Татаринов ['age'] [16]
 
 const a = {
 	name: 'a'
@@ -195,13 +125,3 @@ Object.defineProperty(b, 'age', {
     enumerable: true,
     writable: true
 })
-
-//Ромам Догода ['name', 'age'] ['b', 16],
-//Егор Мишин { value: 'b' }
-//Вова Никитин ['name'] [16]
-//Елена Пелецкая ['name', 'age'] ['b', 16]
-//Олег Злотников ['name', 'age'] ['b', 16]
-//Олег Корсаков ['age'] [16]
-//Дима Карпов ['age'] ['b', 16]
-//Андрей Маконда ['name', 'age'] ['b', 16]
-//Денис Татаринов ['age'] [16]
