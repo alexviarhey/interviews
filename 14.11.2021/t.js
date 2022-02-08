@@ -93,7 +93,7 @@
 
 
 // const arr = []
-// console.log(arr.__proto__.__proto__)
+// console.log(arr.construct)
 
 // const a = () => {}
 // console.log(a.__proto__.__proto__.constructor === Object)
