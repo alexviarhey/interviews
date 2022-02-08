@@ -1,15 +1,15 @@
-//const a = {}
-//const b = {}
-//const c = {
+// const a = {}
+// const b = {}
+// const c = {
 //    toString: () => 'c'
-//}
-//const d = [1, 2]
+// }
+// const d = [1, 2]
 //
-//a[b] = 'b'
-//a[c] = 'c'
-//a[d] = 'd'
+// a[b] = 'b'
+// a[c] = 'c'
+// a[d] = 'd'
 //
-//console.log(a)
+// console.log(a)
 
 
 // const a = {
@@ -26,7 +26,7 @@
 
 // function User(name) {
 //     this.name = name;
-//     this.getName = () => {
+//     this.getName = function () {
 //     	return this.name;
 // 	}
 // }
@@ -60,15 +60,15 @@
 //     }
 // }
 //
-//Object.defineProperty(a, 'getName', {
+// Object.defineProperty(a, 'getName', {
 //    value: function () {
 //         console.log(this.name)
 //     },
 //    enumerable: false
-//})
+// })
 //
 //
-// const b = Object.assign({ name: 'b' }, a)
+// const b = Object.assign({ name: 'b' }, a, { age: 12 }, { isMale: false })
 //
 // const c = Object.create(a, {
 //     name: {
@@ -85,32 +85,34 @@
 
 
 
-//let a = () => {
+// let a = () => {
 //    console.log('a')
-//}
+// }
 //
-//const execute = (f) => {
-//
+// const execute = (f) => {
 //    setTimeout(f, 1000)
-//}
+// }
 //
-//execute(a)
+// execute(a)
 //
-//a = () => {
+// a = () => {
 //    console.log('b')
-//}
+// }
 
 
-//function Main() {}
-//Main.prototype.protected = { protected: true }
+// function Main() {}
+// Main.prototype.protected = { protected: true }
 //
-//const obj = new Main();
+// const obj = new Main();
 //
-//Main.prototype = { protected: false }
+// Main.prototype = { protected: false }
 //
-//console.log(obj.protected)
+// const obj2 = new Main()
+//
+// console.log(obj.protected)
+// console.log(obj2.protected)
 
-
+//
 // Promise
 // 	.resolve(10)
 // 	.then(res => console.log(res))
@@ -124,23 +126,27 @@
 
 
 
-//const a = {
-//    toString: () => 'a',
-//    go: function () {
-//        console.log(this.toString())
-//    },
-//
-//    run: () => {
-//        console.log(this.toString())
-//    },
-//
-//    stop: function () {
-//        (() => {
-//            console.log(this.toString())
-//        })()
-//    }
-//}
-//
-//a.go()
-//a.run()
-//a.stop()
+
+const a = {
+   toString: () => 'a',
+   go: function () {
+       console.log(this.toString())
+   },
+
+   run: () => {
+       console.log(this.toString())
+   },
+
+   stop: function () {
+
+       //this
+
+       (() => {
+           console.log(this.toString())
+       })()
+   }
+}
+
+a.go() //a
+a.run() //[object Object]
+a.stop()
