@@ -1,0 +1,23 @@
+Что такое DOM
+Типы позиционирования ( static, relative, absolute, fixed, sticky )
+Что такое блочная модель CSS (content, padding, border, margin)
+Что такое css селекторы
+Что такое специфичность селекторов ( inline -> id -> class/attribute/pseudo-class -> element )
+Какая разница между display: none и visibility: hidden
+Типы данных (8 - )
+Чем отличается == от ===
+Чем отличается function declaration от function expression
+Что такое область видимости
+Что такое функции высшего порядка
+Фазы распостранения события (Захват(capture) -> target(event-target) -> Всплытие(bubbling)
+Что такое promise, зачем async await
+Что такое this
+Как работает наследование
+Разница между bind call apply
+Доказать что строка либо число либо фцнкция это объекты
+Что такое замыкание
+Что такое стек
+Что такое куча
+Что такое процесс
+Что такое поток
+Что такое сетевой стек из каких основных протоколов он состоит
